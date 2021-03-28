@@ -34,7 +34,7 @@ The analysis of the election show that:
 - The winner of the election was:
 -   - Diana DeGette, who received 73.8% of the vote and 272,892 number of votes.
 
-![alt text](image.jpg)
+![alt text](https://github.com/trallen09/Election_Analysis/blob/main/Resources/Screenshot%20Election%20Results.png)
 
 ## Challenge Overview
 I was tasked to open and analyze a csv file called election_results.csv file, use for loops and conditional statements with membership and logical operators to find the requested results. Then, print the results to the command line and save them to your election_results.txt file. The problem with this code is that it would not have handled the file if the names were mixed up and not in order in the csv file. There was difficulty for me keeping up with all the loops and variables created.
