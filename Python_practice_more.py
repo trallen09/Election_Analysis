@@ -31,8 +31,22 @@
 # # With an f-string, print out whether the users were satisfied
 # print(f"Are you happy? {satisfied}")
 
-x = 0
-while x <= 5:
-    print(x)
-    x = x + 1
+# nums = [1, 2, 3, 4, 5]
+
+# for num in nums:
+#     for letter in "abc":
+#         print(num, letter)
+    
+for fizzbuzz in range(51):
+    if fizzbuzz % 3 == 0 and fizzbuzz % 5 == 0:
+        print("fizzbuzz")
+        continue
+    elif fizzbuzz % 3 == 0:
+        print("fizz")
+        continue
+    elif fizzbuzz % 5 == 0:
+        print("buzz")
+        continue
+    print(fizzbuzz) 
+
     
